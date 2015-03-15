@@ -1,0 +1,13 @@
+PODS:
+  - Audiobus (2.1.5)
+  - libpd (0.7.0)
+
+DEPENDENCIES:
+  - Audiobus
+  - libpd
+
+SPEC CHECKSUMS:
+  Audiobus: 04babaf08578450bc7302f062e776b55ac44cdd5
+  libpd: f9e63d090e284438826f9b2fdc0810dbb9889e6f
+
+COCOAPODS: 0.35.0

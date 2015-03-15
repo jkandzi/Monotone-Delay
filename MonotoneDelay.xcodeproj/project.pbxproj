@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F52B5E51AA4F2240070C803 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F52B5E41AA4F2240070C803 /* main.m */; };
+		2F52B5E81AA4F2240070C803 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F52B5E71AA4F2240070C803 /* AppDelegate.m */; };
+		2F52B5EE1AA4F2240070C803 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F52B5EC1AA4F2240070C803 /* Main.storyboard */; };
+		2F52B5F01AA4F2240070C803 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F52B5EF1AA4F2240070C803 /* Images.xcassets */; };
+		2F52B5FF1AA4F2240070C803 /* MonotoneDelayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F52B5FE1AA4F2240070C803 /* MonotoneDelayTests.m */; };
+		2F52B6151AA4F2670070C803 /* MonotoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F52B60B1AA4F2670070C803 /* MonotoneViewController.m */; };
+		2F52B6161AA4F2670070C803 /* PotentiometerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F52B60D1AA4F2670070C803 /* PotentiometerView.m */; };
+		2F52B6171AA4F2670070C803 /* RibbonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F52B60F1AA4F2670070C803 /* RibbonView.m */; };
+		2F52B6181AA4F2670070C803 /* MonotoneAudioEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F52B6111AA4F2670070C803 /* MonotoneAudioEngine.m */; };
+		2F52B6191AA4F2670070C803 /* SwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F52B6131AA4F2670070C803 /* SwitchView.m */; };
+		2F52B61B1AA4F3CC0070C803 /* monopatch.pd in Resources */ = {isa = PBXBuildFile; fileRef = 2F52B61A1AA4F3CC0070C803 /* monopatch.pd */; };
+		2FC687931AA63D5100E3C56D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC687921AA63D5100E3C56D /* AudioToolbox.framework */; };
+		461955FC78220D0E0933562D /* libPods-MonotoneDelay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C00E8C15D9554955C090CF6C /* libPods-MonotoneDelay.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F52B5F91AA4F2240070C803 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F52B5D71AA4F2240070C803 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F52B5DE1AA4F2240070C803;
+			remoteInfo = MonotoneDelay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F52B5DF1AA4F2240070C803 /* MonotoneDelay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonotoneDelay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F52B5E31AA4F2240070C803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F52B5E41AA4F2240070C803 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F52B5E61AA4F2240070C803 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F52B5E71AA4F2240070C803 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F52B5ED1AA4F2240070C803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F52B5EF1AA4F2240070C803 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2F52B5F81AA4F2240070C803 /* MonotoneDelayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonotoneDelayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F52B5FD1AA4F2240070C803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F52B5FE1AA4F2240070C803 /* MonotoneDelayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonotoneDelayTests.m; sourceTree = "<group>"; };
+		2F52B60A1AA4F2670070C803 /* MonotoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonotoneViewController.h; sourceTree = "<group>"; };
+		2F52B60B1AA4F2670070C803 /* MonotoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonotoneViewController.m; sourceTree = "<group>"; };
+		2F52B60C1AA4F2670070C803 /* PotentiometerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PotentiometerView.h; sourceTree = "<group>"; };
+		2F52B60D1AA4F2670070C803 /* PotentiometerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PotentiometerView.m; sourceTree = "<group>"; };
+		2F52B60E1AA4F2670070C803 /* RibbonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RibbonView.h; sourceTree = "<group>"; };
+		2F52B60F1AA4F2670070C803 /* RibbonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RibbonView.m; sourceTree = "<group>"; };
+		2F52B6101AA4F2670070C803 /* MonotoneAudioEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonotoneAudioEngine.h; sourceTree = "<group>"; };
+		2F52B6111AA4F2670070C803 /* MonotoneAudioEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonotoneAudioEngine.m; sourceTree = "<group>"; };
+		2F52B6121AA4F2670070C803 /* SwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchView.h; sourceTree = "<group>"; };
+		2F52B6131AA4F2670070C803 /* SwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchView.m; sourceTree = "<group>"; };
+		2F52B61A1AA4F3CC0070C803 /* monopatch.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = monopatch.pd; sourceTree = "<group>"; };
+		2FC687911AA63D5100E3C56D /* MonotoneDelay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MonotoneDelay.entitlements; sourceTree = "<group>"; };
+		2FC687921AA63D5100E3C56D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		53B17063D7E855A69E833112 /* Pods-MonotoneDelay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonotoneDelay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MonotoneDelay/Pods-MonotoneDelay.debug.xcconfig"; sourceTree = "<group>"; };
+		9E1AE88A1A6A181B3F4F6CCB /* Pods-MonotoneDelay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonotoneDelay.release.xcconfig"; path = "Pods/Target Support Files/Pods-MonotoneDelay/Pods-MonotoneDelay.release.xcconfig"; sourceTree = "<group>"; };
+		C00E8C15D9554955C090CF6C /* libPods-MonotoneDelay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MonotoneDelay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F52B5DC1AA4F2240070C803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461955FC78220D0E0933562D /* libPods-MonotoneDelay.a in Frameworks */,
+				2FC687931AA63D5100E3C56D /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F52B5F51AA4F2240070C803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F52B5D61AA4F2240070C803 = {
+			isa = PBXGroup;
+			children = (
+				2F52B5E11AA4F2240070C803 /* MonotoneDelay */,
+				2F52B5FB1AA4F2240070C803 /* MonotoneDelayTests */,
+				2F52B5E01AA4F2240070C803 /* Products */,
+				4760CAB47F244CBB0683223F /* Pods */,
+				BEC3866B63939548B0A9B6D4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F52B5E01AA4F2240070C803 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F52B5DF1AA4F2240070C803 /* MonotoneDelay.app */,
+				2F52B5F81AA4F2240070C803 /* MonotoneDelayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F52B5E11AA4F2240070C803 /* MonotoneDelay */ = {
+			isa = PBXGroup;
+			children = (
+				2FC687911AA63D5100E3C56D /* MonotoneDelay.entitlements */,
+				2F52B5E61AA4F2240070C803 /* AppDelegate.h */,
+				2F52B5E71AA4F2240070C803 /* AppDelegate.m */,
+				2F52B60A1AA4F2670070C803 /* MonotoneViewController.h */,
+				2F52B60B1AA4F2670070C803 /* MonotoneViewController.m */,
+				2FC687951AA640BF00E3C56D /* Audio Engine */,
+				2FC687941AA6404E00E3C56D /* Views */,
+				2F52B5EF1AA4F2240070C803 /* Images.xcassets */,
+				2F52B5E21AA4F2240070C803 /* Supporting Files */,
+			);
+			path = MonotoneDelay;
+			sourceTree = "<group>";
+		};
+		2F52B5E21AA4F2240070C803 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F52B5E31AA4F2240070C803 /* Info.plist */,
+				2F52B5E41AA4F2240070C803 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F52B5FB1AA4F2240070C803 /* MonotoneDelayTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F52B5FE1AA4F2240070C803 /* MonotoneDelayTests.m */,
+				2F52B5FC1AA4F2240070C803 /* Supporting Files */,
+			);
+			path = MonotoneDelayTests;
+			sourceTree = "<group>";
+		};
+		2F52B5FC1AA4F2240070C803 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F52B5FD1AA4F2240070C803 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FC687941AA6404E00E3C56D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F52B5EC1AA4F2240070C803 /* Main.storyboard */,
+				2F52B60C1AA4F2670070C803 /* PotentiometerView.h */,
+				2F52B60D1AA4F2670070C803 /* PotentiometerView.m */,
+				2F52B60E1AA4F2670070C803 /* RibbonView.h */,
+				2F52B60F1AA4F2670070C803 /* RibbonView.m */,
+				2F52B6121AA4F2670070C803 /* SwitchView.h */,
+				2F52B6131AA4F2670070C803 /* SwitchView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		2FC687951AA640BF00E3C56D /* Audio Engine */ = {
+			isa = PBXGroup;
+			children = (
+				2F52B6101AA4F2670070C803 /* MonotoneAudioEngine.h */,
+				2F52B6111AA4F2670070C803 /* MonotoneAudioEngine.m */,
+				2F52B61A1AA4F3CC0070C803 /* monopatch.pd */,
+			);
+			name = "Audio Engine";
+			sourceTree = "<group>";
+		};
+		4760CAB47F244CBB0683223F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53B17063D7E855A69E833112 /* Pods-MonotoneDelay.debug.xcconfig */,
+				9E1AE88A1A6A181B3F4F6CCB /* Pods-MonotoneDelay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BEC3866B63939548B0A9B6D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FC687921AA63D5100E3C56D /* AudioToolbox.framework */,
+				C00E8C15D9554955C090CF6C /* libPods-MonotoneDelay.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F52B5DE1AA4F2240070C803 /* MonotoneDelay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F52B6021AA4F2240070C803 /* Build configuration list for PBXNativeTarget "MonotoneDelay" */;
+			buildPhases = (
+				F6586C4876E7A1C575E33610 /* Check Pods Manifest.lock */,
+				2F52B5DB1AA4F2240070C803 /* Sources */,
+				2F52B5DC1AA4F2240070C803 /* Frameworks */,
+				2F52B5DD1AA4F2240070C803 /* Resources */,
+				498BA14507AB43C18CDC7764 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonotoneDelay;
+			productName = MonotoneDelay;
+			productReference = 2F52B5DF1AA4F2240070C803 /* MonotoneDelay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F52B5F71AA4F2240070C803 /* MonotoneDelayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F52B6051AA4F2240070C803 /* Build configuration list for PBXNativeTarget "MonotoneDelayTests" */;
+			buildPhases = (
+				2F52B5F41AA4F2240070C803 /* Sources */,
+				2F52B5F51AA4F2240070C803 /* Frameworks */,
+				2F52B5F61AA4F2240070C803 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F52B5FA1AA4F2240070C803 /* PBXTargetDependency */,
+			);
+			name = MonotoneDelayTests;
+			productName = MonotoneDelayTests;
+			productReference = 2F52B5F81AA4F2240070C803 /* MonotoneDelayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F52B5D71AA4F2240070C803 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					2F52B5DE1AA4F2240070C803 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 69Y26T3886;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+						};
+					};
+					2F52B5F71AA4F2240070C803 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 2F52B5DE1AA4F2240070C803;
+					};
+				};
+			};
+			buildConfigurationList = 2F52B5DA1AA4F2240070C803 /* Build configuration list for PBXProject "MonotoneDelay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F52B5D61AA4F2240070C803;
+			productRefGroup = 2F52B5E01AA4F2240070C803 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F52B5DE1AA4F2240070C803 /* MonotoneDelay */,
+				2F52B5F71AA4F2240070C803 /* MonotoneDelayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F52B5DD1AA4F2240070C803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F52B5EE1AA4F2240070C803 /* Main.storyboard in Resources */,
+				2F52B5F01AA4F2240070C803 /* Images.xcassets in Resources */,
+				2F52B61B1AA4F3CC0070C803 /* monopatch.pd in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F52B5F61AA4F2240070C803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		498BA14507AB43C18CDC7764 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MonotoneDelay/Pods-MonotoneDelay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6586C4876E7A1C575E33610 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F52B5DB1AA4F2240070C803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F52B6171AA4F2670070C803 /* RibbonView.m in Sources */,
+				2F52B5E81AA4F2240070C803 /* AppDelegate.m in Sources */,
+				2F52B5E51AA4F2240070C803 /* main.m in Sources */,
+				2F52B6191AA4F2670070C803 /* SwitchView.m in Sources */,
+				2F52B6161AA4F2670070C803 /* PotentiometerView.m in Sources */,
+				2F52B6151AA4F2670070C803 /* MonotoneViewController.m in Sources */,
+				2F52B6181AA4F2670070C803 /* MonotoneAudioEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F52B5F41AA4F2240070C803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F52B5FF1AA4F2240070C803 /* MonotoneDelayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F52B5FA1AA4F2240070C803 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F52B5DE1AA4F2240070C803 /* MonotoneDelay */;
+			targetProxy = 2F52B5F91AA4F2240070C803 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F52B5EC1AA4F2240070C803 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F52B5ED1AA4F2240070C803 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F52B6001AA4F2240070C803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F52B6011AA4F2240070C803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F52B6031AA4F2240070C803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53B17063D7E855A69E833112 /* Pods-MonotoneDelay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = MonotoneDelay/MonotoneDelay.entitlements;
+				INFOPLIST_FILE = MonotoneDelay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F52B6041AA4F2240070C803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E1AE88A1A6A181B3F4F6CCB /* Pods-MonotoneDelay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = MonotoneDelay/MonotoneDelay.entitlements;
+				INFOPLIST_FILE = MonotoneDelay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2F52B6061AA4F2240070C803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MonotoneDelayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonotoneDelay.app/MonotoneDelay";
+			};
+			name = Debug;
+		};
+		2F52B6071AA4F2240070C803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MonotoneDelayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonotoneDelay.app/MonotoneDelay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F52B5DA1AA4F2240070C803 /* Build configuration list for PBXProject "MonotoneDelay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F52B6001AA4F2240070C803 /* Debug */,
+				2F52B6011AA4F2240070C803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F52B6021AA4F2240070C803 /* Build configuration list for PBXNativeTarget "MonotoneDelay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F52B6031AA4F2240070C803 /* Debug */,
+				2F52B6041AA4F2240070C803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F52B6051AA4F2240070C803 /* Build configuration list for PBXNativeTarget "MonotoneDelayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F52B6061AA4F2240070C803 /* Debug */,
+				2F52B6071AA4F2240070C803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F52B5D71AA4F2240070C803 /* Project object */;
+}
