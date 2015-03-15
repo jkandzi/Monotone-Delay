@@ -4,7 +4,7 @@ You can see a short demo of the app on [youtube][youtube].
 
 If you want to buy the app you can find it on the [App Store][appstore].
 
-
+I you are interested in the Pure Data patch check out *monopatch.pd* in the *MonotoneDelay* folder.
 
 ### Running the App
 You need [cocoapods][cocoapods] to load external dependencies.
