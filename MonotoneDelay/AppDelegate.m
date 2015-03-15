@@ -33,7 +33,7 @@
                                                  name:ABConnectionsChangedNotification
                                                object:nil];
     
-    self.audiobusController = [[ABAudiobusController alloc] initWithApiKey:@"MCoqKm1vbm90b25lKioqbW9ub3RvbmUuYXVkaW9idXM6Ly8=:Warrnb2Wdc5wd7s0m+JHlCV23Iy9Um1keHSGchfWhbqSM63BV6XmWV2f0BpPILXeRv6RyFEbfto6ig5FIaOWacelZ6xUEmce97fcpZqfBlcxY73a0LqJdsiAmteRdYWv"];
+    self.audiobusController = [[ABAudiobusController alloc] initWithApiKey:@"MCoqKk1vbm90b25lRGVsYXkqKipNb25vdG9uZS0yLjAuYXVkaW9idXM6Ly8=:FLNH/nzHX5eY2nOen1Pkdi+X4xb53WHG5yZ9Dwt1uPp7IawmBmogV9tFaYGO/7TPfaKMVSZ0/KuRS3rV76ivT/75BKhfGG35e+Kt4lRFwBVBZcwPNKyoO+LRvKGpSpvz"];
     
     self.audiobusController.connectionPanelPosition = ABConnectionPanelPositionRight;
     
@@ -51,9 +51,7 @@
 - (void)connectionsChanged:(NSNotification*)notification {
 #pragma unused(notification)
     MonotoneAudioEngine *soundEngine = [MonotoneAudioEngine sharedSoundEngine];
-    [NSObject cancelPreviousPerformRequestsWithTarget:soundEngine
-                                             selector:@selector(stop)
-                                               object:nil];
+    [NSObject cancelPreviousPerformRequestsWithTarget:soundEngine selector:@selector(stop) object:nil];
     
     if (self.audiobusController.connected && !soundEngine.isActive ) {
         soundEngine.active = YES;

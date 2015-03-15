@@ -10,6 +10,11 @@
 #import <libpd/PdAudioController.h>
 #import <libpd/PdBase.h>
 
+// makes the AudioUnit accessible
+@interface PdAudioController (Private)
+@property (nonatomic, retain) PdAudioUnit *audioUnit;
+@end
+
 @interface MonotoneAudioEngine ()
 @property (nonatomic, strong) PdAudioController *audioController;
 @property (nonatomic, assign) void *patch;
@@ -61,8 +66,8 @@ static NSString *const MonotoneDelayDelayFeedbackKey = @"MonotoneDelayDelayFeedb
 }
 
 - (AudioUnit)audioUnit {
-    return nil;
-//    return self.audioController.jhk_audioUnit;
+    PdAudioUnit *pdAudioUnit = self.audioController.audioUnit;
+    return pdAudioUnit.audioUnit;
 }
 
 - (void)setActive:(BOOL)active {
