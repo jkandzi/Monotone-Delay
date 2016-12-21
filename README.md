@@ -7,8 +7,8 @@ If you want to buy the app you can find it on the [App Store][appstore].
 I you are interested in the Pure Data patch check out *monopatch.pd* in the *MonotoneDelay* folder.
 
 ### Running the App
-You need [cocoapods][cocoapods] to load external dependencies.
-Once you have cocoapods installed go to the project's directory and run:
+You need [CocoaPods][cocoapods] to load external dependencies.
+Once you have CocoaPods installed go to the project's directory and run:
 
     pod install
 
