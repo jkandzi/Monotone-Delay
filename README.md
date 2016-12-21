@@ -8,7 +8,7 @@ I you are interested in the Pure Data patch check out *monopatch.pd* in the *Mon
 
 ### Running the App
 You need [CocoaPods][cocoapods] to load external dependencies.
-Once you have cocoapods installed go to the project's directory and run:
+Once you have CocoaPods installed go to the project's directory and run:
 
     pod install
 
